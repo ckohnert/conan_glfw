@@ -10,5 +10,5 @@ if(NOT MSVC)
   ADD_DEFINITIONS ( -std=c++11 )
 endif()
 
-add_executable(glfw_test main.cpp glad.c)
+add_executable(glfw_test main.cpp glad.cpp)
 target_link_libraries(glfw_test ${CONAN_LIBS})
